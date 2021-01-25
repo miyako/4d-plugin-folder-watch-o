@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uGyMQdQ8M0ksf5cYJlhyXOtN1fk=
+			WuIuOK+fLjR9g9y2hZoJKF2X/XE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -108,6 +108,10 @@
 		<key>Resources/constants.xlf</key>
 		<data>
 		VCA6+7A7OcltArZn9gGd8QBexxY=
+		</data>
+		<key>Resources/manifest.json</key>
+		<data>
+		c3IgopVU+5Ilo8udwy6r1wBni4I=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -380,11 +384,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uGyMQdQ8M0ksf5cYJlhyXOtN1fk=
+			WuIuOK+fLjR9g9y2hZoJKF2X/XE=
 			</data>
 			<key>hash2</key>
 			<data>
-			7EZM4IVnTndSfTGmr9qpmjBwnOOJ5tfGl0nMYs2Mp3o=
+			kHxF1r+RNUrQg1sbU4KxmcyxS2G9RcG8oeE4eTZK/Zs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -400,14 +404,25 @@
 			7L6SeaxPxVijji1ZYr2rdU6VEf68HirTcVv7aODv+yA=
 			</data>
 		</dict>
+		<key>Resources/manifest.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			c3IgopVU+5Ilo8udwy6r1wBni4I=
+			</data>
+			<key>hash2</key>
+			<data>
+			jRO61vABpkffJkBxlId8Ra/HjxTJDvZBnhss0dd0Hp0=
+			</data>
+		</dict>
 		<key>manifest.json</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			frMkOlC12sXGMNTYObSGWIBGO34=
+			YByYeLAbUWENlPElTbe+Wnd7riY=
 			</data>
 			<key>requirement</key>
-			<string>identifier manifest and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: shirokumakun@me.com (922KU5UM3K)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+			<string>identifier manifest and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
 		</dict>
 	</dict>
 	<key>rules</key>

@@ -22,7 +22,7 @@ std::mutex globalMutex3;/* PROCESS_SHOULD_TERMINATE */
 std::mutex globalMutex4;/* PROCESS_SHOULD_RESUME */
 
 #if VERSIONMAC
-@interface Listener : NSObject
+@interface FWOListener : NSObject
 
 {
 	FSEventStreamRef stream;
@@ -33,7 +33,7 @@ std::mutex globalMutex4;/* PROCESS_SHOULD_RESUME */
 
 @end
 
-@implementation Listener
+@implementation FWOListener
 
 - (id)init
 {
@@ -102,7 +102,7 @@ std::mutex globalMutex4;/* PROCESS_SHOULD_RESUME */
 namespace FW2
 {
 #if VERSIONMAC
-    Listener *listener = nil;
+    FWOListener *listener = nil;
 #endif
     
     //constants
@@ -163,7 +163,7 @@ void listener_start()
 {
 	if(!FW2::listener)
 	{
-		FW2::listener = [[Listener alloc]init];
+		FW2::listener = [[FWOListener alloc]init];
 	}
 	
 	uint32_t i, length = FW2::WATCH_PATHS_POSIX.getSize();
