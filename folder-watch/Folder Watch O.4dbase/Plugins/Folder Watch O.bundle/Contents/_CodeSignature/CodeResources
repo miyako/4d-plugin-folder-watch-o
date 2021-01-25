@@ -415,15 +415,6 @@
 			jRO61vABpkffJkBxlId8Ra/HjxTJDvZBnhss0dd0Hp0=
 			</data>
 		</dict>
-		<key>manifest.json</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			YByYeLAbUWENlPElTbe+Wnd7riY=
-			</data>
-			<key>requirement</key>
-			<string>identifier manifest and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
